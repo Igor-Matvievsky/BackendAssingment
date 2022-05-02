@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BL.Interfaces\BL.ApiInterfaces.csproj" />
+    <ProjectReference Include="..\DL.ApiInterfaces\DL.ApiInterfaces.csproj" />
+    <ProjectReference Include="..\IUnitOfWork\DL.IUnitOfWork.csproj" />
+  </ItemGroup>
+
+</Project>

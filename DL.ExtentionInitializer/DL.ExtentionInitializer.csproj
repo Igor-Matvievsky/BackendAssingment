@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DL.ApiInterfaces\DL.ApiInterfaces.csproj" />
+    <ProjectReference Include="..\DL.ApiRepositories\DL.ApiRepositories.csproj" />
+    <ProjectReference Include="..\DL.DatabaseContext\DL.DatabaseContext.csproj" />
+    <ProjectReference Include="..\DL.UnitOfWork\DL.UnitOfWork.csproj" />
+  </ItemGroup>
+
+</Project>
